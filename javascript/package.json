@@ -1,0 +1,28 @@
+{
+  "name": "openstack-security-group-updater",
+  "version": "0.1",
+  "description": "Updates OpenStack security group rules to allow communication with specific IP addresses.",
+  "main": "update_security_group.mjs",
+  "scripts": {
+    "start": "node update_security_group.mjs"
+  },
+  "author": "Tony Gravagno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TonyGravagno/openstack-security-group-updates"
+  },
+  "//": [
+        "The dependencies are here for documentation only",
+        "since they are already included in NodeJS",
+        "Comments in JSON :) ... https://stackoverflow.com/a/14221781/190955"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "util": "0.12.4",
+    "child_process": "1.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
